@@ -1,0 +1,42 @@
+h1{
+    color:aquamarine;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    text-align: center;
+}
+h2{
+    text-decoration: line-through;
+    text-decoration-color:darkslategray;
+    text-decoration-style:dotted;
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    text-decoration-style:double;
+    text-align: center;
+}
+p.a{
+    color:darkcyan;
+    text-align: center;
+    
+}
+p.b{
+    color:rgb(59, 142, 34);
+    text-align: center;
+}
+p.c{
+    color:darkslategray;
+    text-align: center;
+    
+}
+p.d{
+    color:goldenrod;
+    text-align: center;
+    background-color: rgb(205, 240, 255);
+}
+p.ex{
+    color: midnightblue;
+    text-align: center;
+    text-decoration-style: inherit;
+}
+

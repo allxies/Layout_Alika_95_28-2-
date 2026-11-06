@@ -1,0 +1,336 @@
+body{
+    background-image:url(https://media3.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OWd2NHphZWZ6NTd0ajIyNTFpZDc2N214ZXZ5dzR6NjNsbHJ3a2h1aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PBzs0lcPW1vLU5aV3T/giphy.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.sylvanian-banner{ 
+  min-height: 300px; 
+  background-size: cover;
+  background-position: center;
+   padding: 40px 20px; 
+}
+
+@font-face {
+    font-family: "Batik";
+    src: url(candy_fruits/Batik.otf);
+}
+
+p.ngaben{
+    color:brown;
+    padding: 20px;
+    text-align: justify;
+}
+
+p.teksdiv{
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+p.ngaben1{
+    margin:0px 0px -20px 0px;
+    font-family: "Batik";
+    text-align: center;
+    font-size: 40px;
+
+    border-radius: 60px;
+    color: #ffcf90;
+    text-shadow: 2px 2px black;
+
+}
+
+p.ngaben2{
+    color:brown;
+    padding: 20px;
+    text-align: justify;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+div.teksngaben2{
+  padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+    background: linear-gradient(to bottom, rgb(240, 80, 36), rgb(255, 164, 89)  );
+}
+
+h2{
+    text-align: center;
+    color: rgb(116, 50, 50);
+    background: linear-gradient(to bottom, rgb(255, 251, 204), rgb(255, 164, 89)  );
+}
+
+div.biodata{
+    margin: 30px auto;
+    width: 75%;
+    background-color: rgba(252, 176, 63, 0.655);
+    color: rgb(115, 101, 67);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.tulisanngaben3{
+    padding: 50px;
+}
+
+p.ngaben3{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    color: darkred;
+}
+
+div.balicouple img {
+   width: 100px;
+   height: 150px;
+   object-fit: cover;
+}
+
+div.isi{
+    background-color: rgb(240, 255, 235);
+    width: 400px;
+    border-radius: 20px;
+}
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(139, 74, 3);
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+div.foto img.top{
+    opacity: 0;
+    z-index: 1;
+}
+div.foto:hover img.top{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 2rem auto;
+}
+
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+  
+  
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+
+.slider img {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+
+.slider-nav a {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+div.image-container{
+  margin: 0 auto;
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  gap: 80px;
+}
+
+div.image-box{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  background-image:url(https://images.surferseo.art/c71d2e03-c986-4fb0-a1a2-3393e1f3d25a.png);
+  background-size: cover;
+  transition: transform 0.5s ease-out;
+}
+
+div.image-box:hover {
+  transform: scaleX(1.5);
+  transition: all 0.5s ease-in-out; 
+  background-image: url(https://ik.imagekit.io/investasiku/HealingVest/bali-ngaben-cremation-3_1PysMuFlg.jpg);
+  background-size:cover;
+  object-fit: cover;
+  box-shadow: 9px 10px 20px  rgba(255, 251, 133, 0.811);
+  border-radius: 50%;
+}
+
+div.image-box2{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  background-image:url(https://down-id.img.susercontent.com/file/id-11134207-7qul1-lgqcyfdytb70ac);
+  background-size: cover;
+  transition: transform 0.5s ease-out;
+}
+
+div.image-box2:hover {
+  transform: scaleX(1.5);
+  transition: all 0.5s ease-in-out; 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI6XzV5W7u5WOKjpFOu2NPgtj3P6lDm1wTzkJTe-gdsRJMg6CzhcfZ4s_r&s=10);
+  background-size:cover;
+  object-fit: cover;
+  box-shadow: 9px 10px 20px  rgba(255, 251, 133, 0.811);
+  border-radius: 50%;
+}
+
+div.image-box3{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSz8V64w9ESib4QCt_vBpKV7mrWxe0M_fHY4IIV5DNygdls8_G4dfju0nE&s=10);
+  background-size: cover;
+  transition: transform 0.5s ease-out;
+}
+
+div.image-box3:hover {
+  transform: scaleX(1.5);
+  transition: all 0.5s ease-in-out; 
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/36/Ubud_Cremation_Procession_1.jpg?utm_source=ms.wikipedia.org&utm_campaign=index&utm_content=original);
+  background-size:cover;
+  object-fit: cover;
+  box-shadow: 9px 10px 20px  rgba(255, 251, 133, 0.811);
+  border-radius: 50%;
+}
+
+div.image-box4{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  background-image:url(https://1001indonesia.net/asset/2025/08/Motif-Batik-Truntum.jpg);
+  background-size: cover;
+  transition: transform 0.5s ease-out;
+}
+
+div.image-box4:hover {
+  transform: scaleX(1.5);
+  transition: all 0.5s ease-in-out; 
+  background-image: url(https://i.ytimg.com/vi/wLvPMvLUQEA/maxresdefault.jpg);
+  background-size:cover;
+  object-fit: cover;
+  box-shadow: 9px 10px 20px  rgba(255, 251, 133, 0.811);
+  border-radius: 50%;
+}
+
+div.image-box5{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  background-image:url(https://down-id.img.susercontent.com/file/id-11134201-7r98z-lrt7r9vn7jmb3e);
+  background-size: cover;
+  transition: transform 0.5s ease-out;
+}
+
+div.image-box5:hover {
+  transform: scaleX(1.5);
+  transition: all 0.5s ease-in-out; 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hnciWXp8rCSap55ETrQ9U-gH7VkIqEp-SI-k6KAojVGmzZqPBYhaltLM&s=10);
+  background-size:cover;
+  object-fit: cover;
+  box-shadow: 9px 10px 20px  rgba(255, 251, 133, 0.811);
+  border-radius: 50%;
+}
+
+
+
+
+
+table, th, td{
+    border:01px solid;
+}
+
+th, td{
+    text-align: center;
+    padding: 9px;
+}
+
+th{
+    background-color: rgb(248, 194, 112);
+}
+tr:hover {
+    background-color: rgb(255, 143, 58);
+}
+
+div.tabel{
+  padding: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    color:rgb(139, 69, 0);
+    background: linear-gradient(to bottom, rgb(255, 253, 227), rgb(237, 173, 77));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

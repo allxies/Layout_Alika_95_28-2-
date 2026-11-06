@@ -1,0 +1,55 @@
+body{
+    background-image: url("sylvanianfamily.jpg");
+}
+p{
+    font-size: 30px;
+    color:rgb(255, 254, 253);
+    font-style: oblique;
+    text-shadow: blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+img{
+    box-shadow: 5px 5px 15px 2px;
+}
+
+img.ukuran{
+    height: 1300px;
+    width: 100;
+}
+
+img.lengkungan{
+   border-radius: 20px; 
+}
+
+div.kelompok{
+    border-radius: 20px;
+    padding: 50px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+div.efek.img{
+    height: 250px;
+    width: 270px;
+    border-radius: 30%;
+    border: 3px solid salmon;
+}
+
+div.efek.hover{
+    height: 250px;
+    width: 270px;
+    background-color: bisque;
+    box-shadow: 15px 15px 10px darkcyan;
+}
+
+p.eksternal{
+    font-family: "candy fruits";
+    font-size: 30pt;
+    color:rgb(108, 255, 255)
+}
+
+@font-face {
+    font-family: "candy fruits";
+    src: url(candy_fruits/Candy\ Fruits.otf);
+}
